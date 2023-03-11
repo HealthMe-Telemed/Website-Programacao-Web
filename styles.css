@@ -2,3 +2,31 @@ html *{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+.navbar{
+    list-style-type: none;
+    background-color: cornflowerblue;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+}
+a {
+    font-size: 20px;
+    text-decoration: none;
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+    display: block;
+}
+
+.active {
+    background-color: #733DF2;
+}
+
+li:hover{
+    background-color: #195BA6;
+}
