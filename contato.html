@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>HealthMe</title>
+</head>
+<body id="info">
+    <ul class="navbar">
+        <li><a href="index.html" target="_self">HealthMe</a></li>
+        <li><a href="platform-info.html" target="_self">A plataforma</a></li>
+        <li><a class="active" href="#" target="_self">Contato</a></li>
+        <li style="float:right"><a href="#" target="_self">Login</a></li>
+    </ul>
+    
+    <div class="content">
+        <h1>Contato</h1>
+        <br>
+        <form action="https://jkorpela.fi/cgi-bin/echo.cgi" method="POST">
+            <label>Nome: </label><input type="text" id="name" name="name" />
+            <br><br>
+            <label>Email: </label><input type="text" id="email" name="email" />
+            <br><br>
+            Telefone: <input type="tel" name="phone" id="phone">
+            <br><br>
+            Assunto:  <input type="text" id="subject" name="subject" />
+            <br><br>
+            <textarea name="content-email" id="content-email" cols="100" rows="7"></textarea>
+            <br><br>
+            <button class="submit" type="submit" value="Submit">Enviar</button>
+            <button class= "clear" type="reset" value="Reset">Resetar</button>
+        </form>
+        <footer><p>USCS, Programação para Web, 3CN-ADS, 2023<p></footer>
+    </div>
+</body>
+</html>

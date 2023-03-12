@@ -23,10 +23,33 @@ a {
     display: block;
 }
 
+body{
+    background-color: linen;
+}
+
 .active {
-    background-color: #733DF2;
+    background-color: #195BA6;
 }
 
 li:hover{
-    background-color: #195BA6;
+    background-color: #733DF2;
+}
+
+.content{
+    padding-left: 100px;
+}   
+
+button{
+    border: black;
+    border-width: 2px;
+    border-style: solid;
+    color:white;
+    padding: 5px 20px;
+    font-size: 14px;
+}
+.submit{
+    background-color: limegreen;
+}
+.clear{
+    background-color: lightsalmon;
 }
